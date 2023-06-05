@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<persistence xmlns="https://jakarta.ee/xml/ns/persistence"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="https://jakarta.ee/xml/ns/persistence https://jakarta.ee/xml/ns/persistence/persistence_3_0.xsd"
+             version="3.0">
+  <persistence-unit name="default">
+    <class>com.ceo.publicservices.domain.enteties.User</class>
+    <class>com.ceo.publicservices.domain.enteties.MeterReading</class>
+    <class>com.ceo.publicservices.domain.enteties.Service</class>
+    <class>com.ceo.publicservices.domain.enteties.Bill</class>
+    <class>com.ceo.publicservices.domain.enteties.Admin</class>
+  </persistence-unit>
+</persistence>

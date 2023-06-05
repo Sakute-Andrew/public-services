@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Text?>
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="520.0"
+            prefWidth="890.0" styleClass="body" stylesheets="@../style/style.css" xmlns="http://javafx.com/javafx/8"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.ceo.publicservices.presentation.controller.authentification.AuthorizationController">
+    <left>
+        <BorderPane prefHeight="520.0" prefWidth="445.0" style="-fx-background-color: #3749a3;"
+                    BorderPane.alignment="CENTER">
+            <center>
+                <ImageView fitHeight="325.0" fitWidth="340.0" layoutX="76.0" layoutY="98.0" pickOnBounds="true"
+                           preserveRatio="true">
+                    <image>
+                        <Image url="@../img/logo.png"/>
+                    </image>
+                </ImageView>
+            </center>
+        </BorderPane>
+    </left>
+    <center>
+        <BorderPane prefHeight="520.0" prefWidth="445.0">
+            <center>
+                <VBox alignment="CENTER" prefHeight="353.0" prefWidth="445.0" spacing="20.0"
+                      BorderPane.alignment="CENTER">
+                    <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="header" text="Ласкаво просимо!"/>
+                        <Text layoutX="161.0" layoutY="158.0" strokeType="OUTSIDE" strokeWidth="0.0"
+                              text="Увійдіть до системи"/>
+                        <TextField fx:id="usernameField" layoutX="124.0" layoutY="195.0" prefHeight="25.0"
+                                   prefWidth="208.0" promptText="Введіть логін" styleClass="input"/>
+                        <PasswordField fx:id="passwordField" layoutX="124.0" layoutY="247.0" prefHeight="25.0"
+                                       prefWidth="208.0" promptText="Введіть пароль" styleClass="input"/>
+                        <Button alignment="CENTER" mnemonicParsing="false" onAction="#login" prefHeight="27.0"
+                                prefWidth="80.0" styleClass="button" text="Увійти" textFill="WHITE"/>
+                    </children>
+                    <padding>
+                        <Insets bottom="90.0" left="90.0" right="90.0" top="90.0"/>
+                    </padding>
+                </VBox>
+            </center>
+            <bottom>
+                <VBox>
+                    <children>
+                        <HBox alignment="TOP_CENTER" prefHeight="24.0" prefWidth="445.0" BorderPane.alignment="CENTER">
+                            <children>
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="hyperlink-text"
+                                      text="Немаєте акаунту?">
+                                    <HBox.margin>
+                                        <Insets bottom="3.0" left="2.0" right="3.0" top="3.0"/>
+                                    </HBox.margin>
+                                </Text>
+                                <Hyperlink fx:id="link" onAction="#goToRegistration" text="Зареєструватись!"
+                                           textFill="#3749a3"/>
+                            </children>
+                        </HBox>
+                        <HBox alignment="TOP_CENTER" prefHeight="77.0" prefWidth="445.0" BorderPane.alignment="CENTER">
+                            <children>
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="hyperlink-text"
+                                      text="Адміністратор?">
+                                    <HBox.margin>
+                                        <Insets bottom="3.0" left="2.0" right="3.0" top="3.0"/>
+                                    </HBox.margin>
+                                </Text>
+                                <Hyperlink onAction="#goToAdmin" text="Увійти!" textFill="#3749a3"/>
+                            </children>
+                        </HBox>
+                    </children>
+                </VBox>
+            </bottom>
+        </BorderPane>
+    </center>
+</BorderPane>

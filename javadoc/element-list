@@ -1,0 +1,10 @@
+com.ceo.publicservices
+com.ceo.publicservices.domain.enteties
+com.ceo.publicservices.domain.validation
+com.ceo.publicservices.infrastructure.dao
+com.ceo.publicservices.infrastructure.dao.impl
+com.ceo.publicservices.infrastructure.database.utility
+com.ceo.publicservices.presentation.controller
+com.ceo.publicservices.presentation.controller.adminpanel
+com.ceo.publicservices.presentation.controller.authentification
+com.ceo.publicservices.presentation.controller.mainmenu

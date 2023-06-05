@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Text?>
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="520.0"
+            prefWidth="890.0" styleClass="body"
+            stylesheets="@../style/style.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.ceo.publicservices.presentation.controller.authentification.RegistrationController">
+    <left>
+        <BorderPane prefHeight="520.0" prefWidth="445.0" style="-fx-background-color: #3749a3;"
+                    BorderPane.alignment="CENTER">
+            <center>
+                <ImageView fitHeight="325.0" fitWidth="340.0" layoutX="76.0" layoutY="98.0" pickOnBounds="true"
+                           preserveRatio="true">
+                    <image>
+                        <Image url="@../img/logo.png"/>
+                    </image>
+                </ImageView>
+            </center>
+        </BorderPane>
+    </left>
+    <center>
+        <BorderPane>
+            <center>
+                <VBox alignment="CENTER" prefHeight="353.0" prefWidth="445.0" spacing="20.0"
+                      BorderPane.alignment="CENTER">
+                    <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="header" text="Ласкаво просимо!"/>
+                        <Text layoutX="161.0" layoutY="158.0" strokeType="OUTSIDE" strokeWidth="0.0"
+                              text="Створіть акаунт!"/>
+                        <TextField fx:id="usernameField" layoutX="124.0" layoutY="195.0" prefHeight="25.0"
+                                   prefWidth="208.0" promptText="Введіть логін" styleClass="input"/>
+                        <TextField fx:id="firstNameField" layoutX="124.0" layoutY="195.0" prefHeight="25.0"
+                                   prefWidth="208.0" promptText="Введіть і'мя" styleClass="input"/>
+                        <TextField fx:id="lastNameField" layoutX="124.0" layoutY="195.0" prefHeight="25.0"
+                                   prefWidth="208.0" promptText="Введіть призвіще" styleClass="input"/>
+                        <PasswordField fx:id="passwordField" layoutX="124.0" layoutY="247.0" prefHeight="25.0"
+                                   prefWidth="208.0" promptText="Введіть пароль" styleClass="input"/>
+                        <PasswordField fx:id="repeatPasswordField" layoutX="124.0" layoutY="247.0" prefHeight="25.0"
+                                   prefWidth="208.0" promptText="Повторіть пароль" styleClass="input"/>
+                        <Button alignment="CENTER" mnemonicParsing="false" onAction="#register" prefHeight="27.0"
+                                prefWidth="80.0" styleClass="button" text="Увійти" textFill="WHITE"/>
+                    </children>
+                    <padding>
+                        <Insets bottom="90.0" left="90.0" right="90.0" top="90.0"/>
+                    </padding>
+                </VBox>
+            </center>
+            <bottom>
+                <HBox alignment="TOP_CENTER" prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+                    <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Маєте акаунт?">
+                            <HBox.margin>
+                                <Insets top="3.0"/>
+                            </HBox.margin>
+                        </Text>
+                        <Hyperlink fx:id="link" onAction="#goToAuthorization" text="Увійти!"
+                                   textFill="#3749a3"/>
+                    </children>
+                </HBox>
+            </bottom>
+        </BorderPane>
+    </center>
+</BorderPane>

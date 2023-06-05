@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="720.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ceo.publicservices.presentation.controller.adminpanel.AllUsers">
+    <top>
+        <HBox alignment="CENTER" prefHeight="55.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+            <children>
+                <Text>Управління користувачами</Text>
+            </children>
+        </HBox>
+    </top>
+    <center>
+        <TableView fx:id="allUsersTable" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+            <columns>
+                <TableColumn fx:id="userId" prefWidth="75.0" text="Id" />
+                <TableColumn fx:id="username" prefWidth="75.0" text="Логін" />
+                <TableColumn fx:id="firstName" prefWidth="75.0" text="Ім'я" />
+                <TableColumn fx:id="lastName" prefWidth="75.0" text="Призвіще" />
+                <TableColumn fx:id="accountNumber" prefWidth="75.0" text="Рахунок" />
+                <TableColumn fx:id="icon" prefWidth="100.0" text="" />
+            </columns>
+            <columnResizePolicy>
+                <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+            </columnResizePolicy>
+        </TableView>
+    </center>
+</BorderPane>

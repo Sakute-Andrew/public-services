@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="720.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ceo.publicservices.presentation.controller.adminpanel.MakeBillController">
+    <top>
+        <HBox alignment="CENTER" prefHeight="55.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+            <children>
+                <Text text="Виписка квитанцій" textAlignment="CENTER">Управління користувачами</Text>
+            </children>
+        </HBox>
+    </top>
+    <center>
+        <TableView fx:id="allUsersTable" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+            <columns>
+                <TableColumn fx:id="id" prefWidth="75.0" text="Id" />
+                <TableColumn fx:id="userId" prefWidth="75.0" text="Користувач" />
+                <TableColumn fx:id="serviceId" prefWidth="75.0" text="Послуга" />
+                <TableColumn fx:id="readingDate" prefWidth="75.0" text="Дата запису" />
+                <TableColumn fx:id="consumption" prefWidth="75.0" text="Спожито" />
+                <TableColumn fx:id="consumptionType" prefWidth="75.0" text="У одиницях" />
+                <TableColumn fx:id="icon" prefWidth="100.0" text="" />
+            </columns>
+            <columnResizePolicy>
+                <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+            </columnResizePolicy>
+        </TableView>
+    </center>
+</BorderPane>

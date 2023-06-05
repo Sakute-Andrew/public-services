@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="connection.url">
+            jdbc:sqlite:.\database\public_services.sqlite
+        </property> <property name="connection.username">postgres</property>
+        <property name="connection.password">0000</property>
+        <property name="connection.driver_class">org.sqlite.JDBC</property>
+        <property name="hibernate.dialect">org.sqlite.hibernate.dialect.SQLiteDialect</property>
+        <property name="hibernate.connection.provider_class">com.zaxxer.hikari.hibernate.HikariConnectionProvider
+        </property>
+
+        <!-- Maximum waiting time for a connection from the pool -->
+        <property name="hibernate.hikari.connectionTimeout">10000</property>
+
+        <!-- Minimum number of ideal connections in the pool -->
+        <property name="hibernate.hikari.minimumIdle">20</property>
+
+        <!-- Maximum number of actual connection in the pool -->
+        <property name="hibernate.hikari.maximumPoolSize">20</property>
+
+        <!-- Maximum time that a connection is allowed to sit ideal in the pool -->
+        <property name="hibernate.hikari.idleTimeout">200000</property>
+
+        <property name="hibernate.hbm2ddl.auto">update</property>
+        <property name="hibernate.show_sql">true</property>
+        <property name="hibernate.format_sql">true</property>
+        <mapping class="com.ceo.publicservices.domain.enteties.Bill"/>
+        <mapping class="com.ceo.publicservices.domain.enteties.Service"/>
+        <mapping class="com.ceo.publicservices.domain.enteties.User"/>
+        <mapping class="com.ceo.publicservices.domain.enteties.MeterReading"/>
+        <mapping class="com.ceo.publicservices.domain.enteties.Admin"/>
+    </session-factory>
+</hibernate-configuration>

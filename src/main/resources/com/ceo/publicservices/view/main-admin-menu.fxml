@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="540" prefWidth="945" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ceo.publicservices.presentation.controller.adminpanel.AdminMenuController">
+   <left>
+      <VBox prefHeight="400.0" prefWidth="200" style="-fx-background-color: #3749a3;" BorderPane.alignment="CENTER">
+         <children>
+            <Label alignment="CENTER" prefHeight="70.0" prefWidth="201.0" style="-fx-font-weight: bold;" text="Admin" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Consolas" size="20.0" />
+               </font>
+            </Label>
+            <Button id="showUsers" defaultButton="true" mnemonicParsing="false" onAction="#showAllUsers" prefHeight="50.0" prefWidth="201.0" style="-fx-background-color: transparent;" text="Користувачі" textFill="WHITE">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <Button id="blockUsers" mnemonicParsing="false" onAction="#showServices" prefHeight="50.0" prefWidth="204.0" style="-fx-background-color: transparent;" text="Послуги" textFill="WHITE">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <Button id="premiumUsers" mnemonicParsing="false" onAction="#billCount" prefHeight="50.0" prefWidth="202.0" style="-fx-background-color: transparent;" text="Виставлення рахунку" textFill="WHITE">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+         </children>
+      </VBox>
+   </left>
+   <center>
+      <BorderPane fx:id="pane" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #878787;"
+                  BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
+         </BorderPane.margin>
+      </BorderPane>
+   </center>
+</BorderPane>

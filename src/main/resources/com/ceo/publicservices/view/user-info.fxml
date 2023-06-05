@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ceo.publicservices.presentation.controller.mainmenu.UserInfoController">
+    <center>
+        <BorderPane>
+            <children>
+                <HBox alignment="BOTTOM_CENTER">
+                    <padding>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                    </padding>
+                </HBox>
+            </children>
+            <center>
+                <HBox alignment="CENTER" prefHeight="342.0" prefWidth="604.0" BorderPane.alignment="CENTER">
+                    <BorderPane.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                    </BorderPane.margin>
+                    <children>
+                        <TableView fx:id="meterReading" prefHeight="302.0" prefWidth="402.0">
+                            <columns>
+                                <TableColumn fx:id="service" prefWidth="112.0" text="Послуга" />
+                                <TableColumn fx:id="date" minWidth="68.0" prefWidth="69.0" text="Дата показника" />
+                                <TableColumn fx:id="amount" prefWidth="89.0" text="Кількість" />
+                                <TableColumn fx:id="in" prefWidth="75.0" text="у" />
+                            </columns>
+                            <columnResizePolicy>
+                                <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+                            </columnResizePolicy>
+                        </TableView>
+                        <TableView fx:id="bill" prefHeight="302.0" prefWidth="402.0">
+                            <columns>
+                                <TableColumn fx:id="serviceName" minWidth="38.0" prefWidth="50.0" text="Послуга" />
+                                <TableColumn fx:id="dateBill" prefWidth="93.0" text="Дата показника" />
+                                <TableColumn fx:id="amountBill" prefWidth="75.0" text="Сума в грн" />
+                                <TableColumn fx:id="billStatus" prefWidth="75.0" text="Статус" />
+                            </columns>
+                            <columnResizePolicy>
+                                <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+                            </columnResizePolicy>
+                        </TableView>
+                    </children>
+                </HBox>
+            </center>
+        </BorderPane>
+    </center>
+    <top>
+        <VBox BorderPane.alignment="CENTER">
+            <children>
+                <Text fx:id="welcome" strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
+                    <VBox.margin>
+                        <Insets bottom="10.0" left="20.0" right="20.0" top="20.0" />
+                    </VBox.margin>
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Text>
+                <Text fx:id="accountId" strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                    <VBox.margin>
+                        <Insets bottom="20.0" left="20.0" right="20.0" />
+                    </VBox.margin>
+                </Text>
+            </children>
+        </VBox>
+    </top>
+
+</BorderPane>
