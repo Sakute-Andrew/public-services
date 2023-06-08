@@ -1,0 +1,29 @@
+
+L
+java:S3740"/Provide the parametrized type for this generic.(ä¬âá8şº•ï‡1
+Q
+java:S3740J"/Provide the parametrized type for this generic.(¬œ‘âşÿÿÿÿ8¹•£ï‡1
+½
+java:S1192"šDefine a constant instead of duplicating this literal "-----------------------------------------------------------------------------------------" 3 times.(ÑÍªíûÿÿÿÿ8şº•ï‡1
+M
+java:S2440"+Remove this instantiation of "AlertWindow".(”ˆÛµıÿÿÿÿ8ÿ€Ãş‡1
+„
+java:S4087"bRemove this "close" call; closing the resource is handled automatically by the try-with-resources.(ËÇÇÓûÿÿÿÿ8»•ï‡1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ÑÍªíûÿÿÿÿ8»•ï‡1
+„
+java:S4087+"bRemove this "close" call; closing the resource is handled automatically by the try-with-resources.(ËÇÇÓûÿÿÿÿ8óî˜ï‡1
+Z	java:S106,"9Replace this use of System.out or System.err by a logger.(ÑÍªíûÿÿÿÿ8‘»•ï‡1
+H
+java:S11682"+Return an empty collection instead of null.(¥¹ï8úı¢ï‡1
+„
+java:S4087="bRemove this "close" call; closing the resource is handled automatically by the try-with-resources.(ËÇÇÓûÿÿÿÿ8”ˆ™ï‡1
+Z	java:S106>"9Replace this use of System.out or System.err by a logger.(ÑÍªíûÿÿÿÿ8’»•ï‡1
+„
+java:S4087N"bRemove this "close" call; closing the resource is handled automatically by the try-with-resources.(ËÇÇÓûÿÿÿÿ8Ê•£ï‡1
+U	java:S106P"9Replace this use of System.out or System.err by a logger.(¾˜…˜8Ë•£ï‡1
+R
+java:S2209R"5Change this instance-reference to a static reference.(¯ş˜½8„Ãş‡1
+j
+java:S1128"HRemove this unused import 'com.ceo.publicservices.domain.enteties.User'.(µ‹öÌúÿÿÿÿ8…Ãş‡1
+Z
+java:S1128	"=Remove this unused import 'org.hibernate.HibernateException'.(™òı²8…Ãş‡1

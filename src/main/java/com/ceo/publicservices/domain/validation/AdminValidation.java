@@ -1,15 +1,11 @@
 package com.ceo.publicservices.domain.validation;
 
 import com.ceo.publicservices.domain.enteties.Admin;
-import com.ceo.publicservices.domain.enteties.User;
 import com.ceo.publicservices.infrastructure.dao.AdminDao;
-import com.ceo.publicservices.infrastructure.dao.UserDao;
 import com.ceo.publicservices.infrastructure.dao.impl.AdminDaoImpl;
-import com.ceo.publicservices.infrastructure.dao.impl.UserDaoImpl;
 import com.ceo.publicservices.presentation.controller.AlertWindow;
 import javafx.scene.control.Alert;
 
-import static com.ceo.publicservices.domain.validation.RegistrationValidation.userSingleton;
 
 
 

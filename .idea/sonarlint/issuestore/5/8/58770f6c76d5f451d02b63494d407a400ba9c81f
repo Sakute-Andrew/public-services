@@ -1,0 +1,32 @@
+
+L
+java:S3740""/Provide the parametrized type for this generic.(Å—ÔÕ8‘çó‡1
+X	java:S1103"<This class has 9 parents which is greater than 5 authorized.(ıêªÊ8’çó‡1
+v
+java:S1104"YMake allUsersTable a static final constant or non-public and provide accessors if needed.(é––¹8“çó‡1
+k
+java:S1104"NMake id a static final constant or non-public and provide accessors if needed.(™¬¶›8“çó‡1
+r
+java:S1104"PMake name a static final constant or non-public and provide accessors if needed.(‹Ÿ–¯úÿÿÿÿ8“çó‡1
+y
+java:S1104 "WMake description a static final constant or non-public and provide accessors if needed.(¸ÊöØùÿÿÿÿ8“çó‡1
+u
+java:S1104!"SMake tarrifs a static final constant or non-public and provide accessors if needed.(è‡Ô„ÿÿÿÿÿ8“çó‡1
+m
+java:S1104""PMake icon a static final constant or non-public and provide accessors if needed.(Å—ÔÕ8“çó‡1
+Ÿ
+java:S1186‡"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ù‹…æ8ë…öş‡1
+t
+java:S3776*"RRefactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.(•‘İŸüÿÿÿÿ8¨çó‡1
+p
+java:S16021"SRemove useless curly braces around statement and then remove useless return keyword(ö—ÀÏ8ªçó‡1
+X
+java:S1117O"6Rename "id" which hides the field declared at line 30.(§î¥ãıÿÿÿÿ8¬çó‡1
+U	java:S106P"9Replace this use of System.out or System.err by a logger.(ö¡¹ê8­çó‡1
+J	java:S108S")Either remove or fill this block of code.(±Ÿ—±ÿÿÿÿÿ8­çó‡1
+]
+java:S1117`";Rename "service" which hides the field declared at line 40.(Å»Â‘ıÿÿÿÿ8®çó‡1
+U	java:S106a"9Replace this use of System.out or System.err by a logger.(•É¦¼8®çó‡1
+T	java:S106n"9Replace this use of System.out or System.err by a logger.(ÕÁ{8¿ã¹ó‡1
+J
+java:S1172‹",Remove this unused method parameter "event".(ë³ Ö8Äç§ÿ‡1

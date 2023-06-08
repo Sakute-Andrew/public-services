@@ -3,13 +3,13 @@ module com.ceo.publicservices{
     requires javafx.graphics;
     requires javafx.controls;
     requires java.naming;
-    requires java.persistence;
+    requires static java.persistence;
     requires java.sql;
     requires javafx.fxml;
 
-    requires org.hibernate.orm.core;
-    requires lombok;
-    requires com.google.common;
+    requires  org.hibernate.orm.core;
+    requires  lombok;
+    requires  com.google.common;
 
 
     opens com.ceo.publicservices to javafx.fxml, javafx.graphics;

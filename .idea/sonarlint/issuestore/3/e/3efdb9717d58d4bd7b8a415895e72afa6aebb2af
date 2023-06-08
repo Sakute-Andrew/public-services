@@ -1,0 +1,10 @@
+
+g	java:S1125"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8³íÀˆ1
+X
+java:S2440"6Remove this instantiation of "RegistrationValidation".(›Éèµüÿÿÿÿ8ÒíÀˆ1
+Z	java:S106/"9Replace this use of System.out or System.err by a logger.(Á¥Ôƒÿÿÿÿÿ8ÕíÀˆ1
+D
+java:S11251"'Remove the unnecessary boolean literal.(ªá•8ÕíÀˆ1
+R
+java:S22091"5Change this instance-reference to a static reference.(ªá•8ÕíÀˆ1
+U	java:S106<"9Replace this use of System.out or System.err by a logger.(³¬À8ÚíÀˆ1

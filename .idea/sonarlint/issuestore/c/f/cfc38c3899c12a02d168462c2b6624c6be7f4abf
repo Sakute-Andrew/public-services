@@ -1,0 +1,20 @@
+
+g	java:S112:"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8öâ±‡1
+r
+java:S1104"UMake linkAdmin a static final constant or non-public and provide accessors if needed.(ÑàŞ8öâ±‡1
+£
+java:S1186E"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(é×éúÿÿÿÿ8–Æé±‡1
+£
+java:S1186J"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(•‘İŸüÿÿÿÿ8®öâ±‡1
+L
+java:S2440"/Remove this instantiation of "LoginValidation".(úï¾–8œ¶í‡1
+C
+java:S11256"'Remove the unnecessary boolean literal.(´…˜*8¶öâ±‡1
+Q
+java:S22096"5Change this instance-reference to a static reference.(´…˜*8˜œ¶í‡1
+
+java:S1130E"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(é×éúÿÿÿÿ8 Æé±‡1
+M
+java:S1172E"+Remove this unused method parameter "fxml".(é×éúÿÿÿÿ8 Æé±‡1
+K
+java:S1144E")Remove this unused private "goTo" method.(é×éúÿÿÿÿ8¹öâ±‡1

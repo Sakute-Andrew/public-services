@@ -1,0 +1,16 @@
+
+E
+java:S1604/"(Make this anonymous inner class a lambda(×ˆçÒ8ôÕÕˆ1
+]	java:S1102"<This class has 9 parents which is greater than 5 authorized.(„äˆáúÿÿÿÿ8ôÕÕˆ1
+n
+java:S1104"RMake amount a static final constant or non-public and provide accessors if needed.(éáïx8ôÕÕˆ1
+o
+java:S1104"RMake picker a static final constant or non-public and provide accessors if needed.(é„ÚŒ8ôÕÕˆ1
+u
+java:S1104"SMake toCount a static final constant or non-public and provide accessors if needed.(”„ûÿÿÿÿÿ8ôÕÕˆ1
+M
+java:S2440"+Remove this instantiation of "AlertWindow".(”ˆÛµıÿÿÿÿ8„ÖÕˆ1
+I
+java:S1172",Remove this unused method parameter "event".(Ù‹…æ8…ÖÕˆ1
+W
+java:S2209"5Change this instance-reference to a static reference.(Şÿã‰ıÿÿÿÿ8…ÖÕˆ1

@@ -1,0 +1,15 @@
+
+w
+java:S1104"UMake inputType a static final constant or non-public and provide accessors if needed.(¼ã„çþÿÿÿÿ8½¡•ÿ‡1
+~
+java:S1104"\Make inputMeasureUnit a static final constant or non-public and provide accessors if needed.(Øâ‘¬ýÿÿÿÿ8½¡•ÿ‡1
+x
+java:S1104"VMake inputPrice a static final constant or non-public and provide accessors if needed.(· åœÿÿÿÿÿ8½¡•ÿ‡1
+M
+java:S2440"+Remove this instantiation of "AlertWindow".(”ˆÛµýÿÿÿÿ8Î¡•ÿ‡1
+I
+java:S1172",Remove this unused method parameter "event".(Ù‹…æ8Î¡•ÿ‡1
+W
+java:S2209"5Change this instance-reference to a static reference.(Þÿã‰ýÿÿÿÿ8Ï¡•ÿ‡1
+R
+java:S2209""5Change this instance-reference to a static reference.(¯þ˜½8…¹²ÿ‡1

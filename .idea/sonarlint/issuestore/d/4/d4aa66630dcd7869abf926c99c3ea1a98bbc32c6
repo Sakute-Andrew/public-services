@@ -1,0 +1,15 @@
+
+Q
+java:S3740X"/Provide the parametrized type for this generic.(¬œ‘âşÿÿÿÿ8ï¬Ìó‡1
+„
+java:S4087"bRemove this "close" call; closing the resource is handled automatically by the try-with-resources.(ËÇÇÓûÿÿÿÿ8ş¬Ìó‡1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(•É¦¼8ÿ¬Ìó‡1
+Z	java:S106!"9Replace this use of System.out or System.err by a logger.(ù‚Áùÿÿÿÿ8ÿ¬Ìó‡1
+„
+java:S4087-"bRemove this "close" call; closing the resource is handled automatically by the try-with-resources.(ËÇÇÓûÿÿÿÿ8ÿ¬Ìó‡1
+Z	java:S106."9Replace this use of System.out or System.err by a logger.(ÑÍªíûÿÿÿÿ8€­Ìó‡1
+„
+java:S4087K"bRemove this "close" call; closing the resource is handled automatically by the try-with-resources.(ËÇÇÓûÿÿÿÿ8­Ìó‡1
+„
+java:S4087\"bRemove this "close" call; closing the resource is handled automatically by the try-with-resources.(ËÇÇÓûÿÿÿÿ8‚­Ìó‡1
+U	java:S106`"9Replace this use of System.out or System.err by a logger.(¾˜…˜8‹­Ìó‡1

@@ -1,0 +1,21 @@
+
+m
+java:S1104)"PMake bill a static final constant or non-public and provide accessors if needed.(¸ÆˆÒ8å¸¾€ˆ1
+y
+java:S1104*"WMake serviceName a static final constant or non-public and provide accessors if needed.(Ùüğ¡ûÿÿÿÿ8å¸¾€ˆ1
+p
+java:S1104+"TMake dateBill a static final constant or non-public and provide accessors if needed.(Å’p8å¸¾€ˆ1
+x
+java:S1104,"VMake amountBill a static final constant or non-public and provide accessors if needed.(•´Ö®üÿÿÿÿ8å¸¾€ˆ1
+x
+java:S1104-"VMake billStatus a static final constant or non-public and provide accessors if needed.(ª ıùÿÿÿÿ8å¸¾€ˆ1
+b
+java:S1117="@Rename "meterReading" which hides the field declared at line 31.(Ê‹øÿÿÿÿ8ı¸¾€ˆ1
+\
+java:S1117>"?Rename "serviceName" which hides the field declared at line 42.(‚‰¾ğ8ı¸¾€ˆ1
+b
+java:S1117D"@Rename "meterReading" which hides the field declared at line 31.(Ê‹øÿÿÿÿ8ş¸¾€ˆ1
+U
+java:S1117L"8Rename "bill" which hides the field declared at line 41.(£ßË®8ş¸¾€ˆ1
+a
+java:S1117M"?Rename "serviceName" which hides the field declared at line 42.(†ß§¹ıÿÿÿÿ8ş¸¾€ˆ1

@@ -1,0 +1,36 @@
+
+L
+java:S3740&"/Provide the parametrized type for this generic.(Å—ÔÕ8õˆûó‡1
+X	java:S110F"<This class has 9 parents which is greater than 5 authorized.(Œ¸­İ8öˆûó‡1
+v
+java:S1104 "YMake allUsersTable a static final constant or non-public and provide accessors if needed.(¦ÕçÉ8öˆûó‡1
+k
+java:S1104!"NMake id a static final constant or non-public and provide accessors if needed.(ÒŸºç8öˆûó‡1
+t
+java:S1104""RMake userId a static final constant or non-public and provide accessors if needed.(¿ì€¦üÿÿÿÿ8öˆûó‡1
+r
+java:S1104#"UMake serviceId a static final constant or non-public and provide accessors if needed.(•Æ ó8öˆûó‡1
+y
+java:S1104$"WMake readingDate a static final constant or non-public and provide accessors if needed.(ÚÂÿÿÿÿÿ8öˆûó‡1
+t
+java:S1104%"WMake consumption a static final constant or non-public and provide accessors if needed.(ÓŞ¨8öˆûó‡1
+m
+java:S1104&"PMake icon a static final constant or non-public and provide accessors if needed.(Å—ÔÕ8öˆûó‡1
+x
+java:S1104'"[Make consumptionType a static final constant or non-public and provide accessors if needed.(•´¯É8öˆûó‡1
+M
+java:S2440)"+Remove this instantiation of "AlertWindow".(”ˆÛµıÿÿÿÿ8ˆ‰ûó‡1
+t
+java:S37760"RRefactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.(•‘İŸüÿÿÿÿ8‰‰ûó‡1
+u
+java:S1602D"SRemove useless curly braces around statement and then remove useless return keyword(‘á³ûÿÿÿÿ8Œ‰ûó‡1
+X
+java:S1117a"6Rename "id" which hides the field declared at line 33.(§î¥ãıÿÿÿÿ8‰ûó‡1
+U	java:S106b"9Replace this use of System.out or System.err by a logger.(ö¡¹ê8‰ûó‡1
+J	java:S108e")Either remove or fill this block of code.(±Ÿ—±ÿÿÿÿÿ8‰ûó‡1
+W
+java:S2209n"5Change this instance-reference to a static reference.(Şÿã‰ıÿÿÿÿ8‰ûó‡1
+a
+java:S1117u"?Rename "consumption" which hides the field declared at line 37.(¾ç³ışÿÿÿÿ8‰ûó‡1
+U	java:S106v"9Replace this use of System.out or System.err by a logger.(•É¦¼8‰ûó‡1
+U	java:S106„"9Replace this use of System.out or System.err by a logger.(ÕÁ{8—‰ûó‡1
